@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background: var(--bg);
+    font-family: var(--RBR);
+    color: var(--white);
+    min-width: 320px;
+}
+
+:root {
+    --bg: url(../img/bg.png) no-repeat center center/cover;
+    --RBR: "RBR", sans-serif;
+    --RR: "RR", sans-serif;
+    --RM: "RM", sans-serif;
+    --SR: "SR", sans-serif;
+    --SM: "SM", sans-serif;
+    --SB: "SB", sans-serif;
+    --white: #F9FAFB;
+    --grad: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    --text:linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}

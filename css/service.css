@@ -1,0 +1,213 @@
+/* businnes start */
+.businnes__content {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.businnes__text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.businnes__title {
+    font-family: var(--SB);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 84px;
+    width: 546px;
+    background: var(--text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.businnes__desc {
+    font-family: var(--SR);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    width: 534px;
+    margin-left: 4px;
+}
+
+.businnes__text-end {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.businnes__btn {
+    background: var(--grad);
+    width: 135px;
+    height: 61px;
+    border-radius: 6px;border: none;
+}
+
+.businnes__btn-text {
+    font-family: var(--SM);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.businnes__text-end_watch {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.businnes__text-end-icon {
+    font-size: 26px;
+}
+
+.businnes__text-end_link {
+    font-family: var(--SM);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+
+}
+
+.businnes__img {
+    position: relative;
+    top: -43px;
+}
+
+/* businnes end */
+
+/* service start */
+
+.service {
+    margin: 61px 0 120px;
+}
+
+.service__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.service__title {
+    font-family: var(--SB);
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--white);
+}
+
+.service__desc {
+    font-family: var(--SR);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 600px;
+    color: var(--white)
+}
+
+.service__block {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-auto-rows: 336px;
+    gap: 40px 30px;
+}
+
+.service__block-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 38px 24px 30px;
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+    border: 1px solid;
+
+    border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+    border-radius: 34px;
+    box-shadow: 0px 22px 18px 0px #0000000D;
+
+}
+
+.service__block-card_icon {
+    width: 74px;
+    height: 74px;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service__block-card:nth-child(1) .service__block-card_icon {
+    background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+}
+
+.service__block-card:nth-child(2) .service__block-card_icon {
+    background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
+}
+
+.service__block-card:nth-child(3) .service__block-card_icon {
+    background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
+
+}
+
+.service__block-card:nth-child(4) .service__block-card_icon {
+    background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
+
+}
+
+.service__block-card:nth-child(5) .service__block-card_icon {
+    background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+
+}
+
+.service__block-card:nth-child(6) .service__block-card_icon {
+    background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+
+}
+
+.service__block-card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.service__block-card_text-h {
+    text-align: center;
+    font-family: var(--SM);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.service__block-card_text-p {
+    width: 324px;
+    font-family: var(--SR);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.service__block-card_text-learn .service__block-card_text-p {
+    width: auto;
+}
+
+.service__block-card_text-learn{
+   text-align: center;display: flex;
+   gap: 6px;
+   align-items: center;
+   justify-content: center;     
+}
+
+.service__block-card_text-learn img {
+   width: auto;
+   height: auto;
+   max-width: 100%;
+}
+/* service end */

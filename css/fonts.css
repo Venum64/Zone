@@ -1,0 +1,33 @@
+/* sans */
+@font-face {
+    font-family: 'SB';
+    src: url(../fonts/Sans/DMSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SM';
+    src: url(../fonts/Sans/DMSans-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SR';
+    src: url(../fonts/Sans/DMSans-Regular.ttf) format('truetype');
+}
+/* sans */
+/* rubik */
+@font-face {
+    font-family: 'RM';
+    src: url(../fonts/Rubik/Rubik-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RR';
+    src: url(../fonts/Rubik/Rubik-Regular.ttf) format('truetype');
+}
+/* rubik */
+/* roboto */
+@font-face {
+    font-family: 'RBR';
+    src: url(../fonts/Roboto/Roboto_Condensed-Regular.ttf) format('truetype');
+}
+/* roboto */

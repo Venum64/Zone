@@ -1,0 +1,44 @@
+.header {
+    padding: 43px 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__nav-list_item-link {
+    font-family: var(--SM);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header__nav-list_btn {
+border: none;
+    width: 132px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: var(--grad);
+}
