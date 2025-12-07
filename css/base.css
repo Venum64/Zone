@@ -12,6 +12,9 @@ body {
     font-family: var(--RBR);
     color: var(--white);
     min-width: 320px;
+    margin: 0;
+    height: 200vh;
+    transition: background-position 0.1s linear;
 }
 
 :root {
@@ -24,7 +27,7 @@ body {
     --SB: "SB", sans-serif;
     --white: #F9FAFB;
     --grad: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
-    --text:linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+    --text: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
 }
 
 .container {

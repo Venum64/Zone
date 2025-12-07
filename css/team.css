@@ -1,3 +1,5 @@
+
+
 /* team start */
 .team {
     margin-bottom: 120px;
@@ -52,10 +54,9 @@
     width: 90px;
     height: 90px;
     border-radius: 54px;
-    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
-    border: 3px solid;
-    border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
-    box-shadow: 0px 22px 18px 0px #0000000D;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 3px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 10px 24px 54px 0px #00000012;
 }
 
 .team__block-center_text {
@@ -119,13 +120,17 @@
     font-weight: 700;
     font-size: 36px;
     color: var(--white);
+    text-align: center;
+
 }
+
 .news__desc {
     font-family: var(--SR);
     font-weight: 400;
     font-size: 16px;
     color: var(--white);
-}       
+}
+
 .news__input {
     width: 860px;
     height: 80px;
@@ -139,9 +144,9 @@
     border: none;
     padding-bottom: 10px;
     padding: 25px 0px 25px 44px;
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .news__input::placeholder {
@@ -162,8 +167,8 @@ justify-content: center;
     line-height: 30px;
     text-align: center;
     color: var(--white);
-   right: -654px;
-   top: -70px;
+    right: -654px;
+    top: -70px;
 }
 
 .tg {
@@ -172,7 +177,7 @@ justify-content: center;
 
 }
 
-.subscribe{
+.subscribe {
     font-family: var(--RM);
     font-weight: 500;
     font-size: 20px;
@@ -181,4 +186,15 @@ justify-content: center;
     color: var(--white);
 }
 
+.news__block {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.news__block.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* news end */
+
